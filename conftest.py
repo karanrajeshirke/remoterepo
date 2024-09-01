@@ -30,5 +30,10 @@ def test_combined_fixtures(sample_data, number_list):
     assert sum(number_list) + sample_data["age"] == 45
 
 
+
 def newfunc():
     print("this is a new function which is to be added to all branched")
+    
+def ipconfig():
+    return "ipconfig"
+
