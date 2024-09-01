@@ -28,3 +28,7 @@ def test_combined_fixtures(sample_data, number_list):
     assert sample_data["city"] == "Wonderland"
     assert len(number_list) == 5
     assert sum(number_list) + sample_data["age"] == 45
+
+
+def newfunc():
+    print("this is a new function which is to be added to all branched")
