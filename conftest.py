@@ -3,7 +3,7 @@ import pytest
 # Sample fixture that sets up some initial data
 @pytest.fixture
 def sample_data():
-    return {"name": "Alice", "age": 30, "city": "Wonderland"}
+    return "no sample data currently avaiable"
 
 # Another fixture that creates a list of numbers
 @pytest.fixture
