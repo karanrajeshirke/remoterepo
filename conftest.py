@@ -13,6 +13,7 @@ def number_list():
 # Test function that uses the sample_data fixture
 def test_name(sample_data):
     assert sample_data["name"] == "Alice"
+    assert sample_data["name"] == "Karan"
 
 # Test function that uses the number_list fixture
 def test_number_list_sum(number_list):
